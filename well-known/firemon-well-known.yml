@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of FireMon hosts
+# Negative result recorded honestly: FireMon exposes no /.well-known discovery
+# documents on its public web host. No raw files saved (no 200s). No WellKnown
+# pointer wired since no catalog is present.
+host: https://www.firemon.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

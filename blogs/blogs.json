@@ -1,0 +1,28 @@
+{
+  "repo": "firemon",
+  "feeds": [
+    {
+      "source": "https://docs.firemon.com/enterprise/Default.htm",
+      "feed_url": "https://docs.firemon.com/enterprise/Default.htm",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.firemon.com/feed/",
+      "feed_url": "https://www.firemon.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.firemon.com/blog/",
+      "feed_url": "https://www.firemon.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}

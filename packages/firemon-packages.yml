@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: pypi.org registry search for FireMon client libraries
+# FireMon publishes no first-party client SDK. The Security Manager REST API is
+# consumed directly (per-install Swagger). The packages below are COMMUNITY
+# wrappers, not vendor-published, so official is false and no `SDKs` pointer is
+# emitted (sdk_count reads first-party SDKs only).
+packages:
+- language: python
+  registry: pypi
+  name: firemon-api
+  url: https://pypi.org/project/firemon-api/
+  install: pip install firemon-api
+  official: false
+  note: Community Python wrapper for FireMon APIs by lukejohannsen; docs at firemon-api.readthedocs.io; repo github.com/lukejohannsen/firemon-api
+- language: python
+  registry: pypi
+  name: firemon
+  url: https://pypi.org/project/firemon/
+  install: pip install firemon
+  official: false
+  note: Third-party PyPI package (no vendor attribution); not confirmed first-party

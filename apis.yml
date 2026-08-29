@@ -10,6 +10,17 @@ description: 'FireMon is a cybersecurity company providing firewall and security
   delivered per-install (self-hosted or cloud appliance) rather than as a single
   public hosted endpoint. This profile was enriched by the API Evangelist pipeline
   from FireMon''s public web and documentation surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

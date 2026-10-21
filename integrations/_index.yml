@@ -28,3 +28,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: firemon-cisco-own
+  label: Cisco (own)
+  partner: cisco
+  partner_name: Cisco (own)
+  category: Policy Compliance
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.cisco.com/en-US/apps/380898
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
